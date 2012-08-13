@@ -26,7 +26,7 @@
 
 -record(state, {}).
 
--define(OPTIONS, [{long_gc, 500}, 
+-define(OPTIONS, [{long_gc, 1000}, 
 				  {large_heap, 5000000},
 				  busy_port]).
 
